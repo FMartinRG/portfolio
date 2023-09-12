@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     width: 100%;
+     height: 100%;
+     background: linear-gradient( rgb(12, 222, 183) 0%, rgb(217, 231, 255) 100%);
+     
+     font-family: 'Faustina', serif;
+
+}
+.container{
+    width: 40%;
+    height: 115vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 30%;
+    background-color: rgba(128, 128, 128, 0.40);
+    border-radius: 6px;
+}
+
+.flex-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-principal{
+    width: 70%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 5vh;
+
+}
+h1{
+    text-align: center;
+    color: white;
+     font-size: 26px;
+     margin-top: 3vh;
+
+}
+
+.link{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2vh;
+    background-color: rgba(146, 254, 157, 0.767);
+    border-radius: 8px;
+    border: 2px solid rgb(251, 248, 249);
+    color: rgb(251, 248, 249);
+    cursor: pointer;
+   
+}
+
+.link:hover{
+    background-color: rgb(240, 183, 221);
+    transform: scale(1.10);
+    transition-duration: 1s;
+}
+
+.marca{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 3vh;
+
+
+}
+
+/*  *****RESPONSIVE ---*/
+
+@media(max-width: 550px){
+    .container{
+    width:  80%;
+    margin-left: 10%;
+
+    }
+    .link{
+        margin-top: 4vh;
+    }
+
+    h1{
+        margin-top: 5vh;
+    }
+
+
+}
+
